@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style/Style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="landing">
+        <div class="divL1">
+            <input type="text" placeholder="Tappez Nouvelle Catégorie" id="txtCat" class="txtL1"> 
+            <input type="button" value="+" class="btnL1" onclick="ajouterCat()"> 
+            <input type="button" value="X" class="btnL1" onclick="supprimerCat()"> 
+            <input type="button" value="Save" class="btnL1" onclick="save()">
+        </div>
+        <div class="divL2">
+            <input type="text" id="txtL2" class="txtL2">
+            <select id="cat" onchange="afficherCat()"></select>
+            <div>
+                <input type="button" value="+" class="btnL2" onclick="ajouterTache()">
+                <input type="button" value="X" class="btnL2" onclick="supprimerTaches()">
+            </div>
+        </div>
+        <div class="taches">
+            <!--<div class="divL3">
+                <input type="text" disabled class="txtL3">
+                <div class="divBTN">
+                    <input type="button" value="Edit">
+                    <input type="button" value="Remove">
+                </div>
+                <div class="divCHECK">
+                    <input type="checkbox" name="cb" value="a" checked onclick="isChecked(this.value)">
+                    <input type="checkbox" name="cb" value="b" onclick="isChecked(this.value)">
+                </div>
+            </div>-->
+        </div>
+    </div>
+</body>
+<script src="Script/Script.js"></script>
+</html>

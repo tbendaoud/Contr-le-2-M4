@@ -1,0 +1,96 @@
+body{
+    background-color:rgb(29, 26, 26) ;
+}
+
+.landing{
+    margin: 0 auto;
+    width: 500px;
+}
+
+.divL1 {
+    padding-left: 50px;
+    padding-right: 70px;
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr 1fr ;
+    column-gap: 5px;
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+.txtL1{
+    border-radius: 20px;
+}
+
+input[type="button"]{
+    background-image: linear-gradient(rgb(171, 245, 171),rgb(24, 138, 24));
+    font-weight: bold;
+    border:none;
+}
+
+.txtL2{
+    border-radius: 20px;
+}
+
+.divL2{
+    padding-top: 10px;
+    display: grid;
+    grid-template-columns: 3fr 2fr 1fr;
+    column-gap: 5px;
+    margin-bottom: 10px;
+}
+
+.btnL2{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    color: rgb(199, 195, 195);;
+}
+
+.divL2 select{
+    background-image: linear-gradient(rgb(171, 245, 171),rgb(24, 138, 24));
+}
+
+.txtL3{
+    background-color:rgb(29, 26, 26) ;
+    border: none;
+    border-bottom: 2px solid rgb(199, 195, 195);
+}
+
+.divL3{
+    padding-top: 10px;
+    display: grid;
+    grid-template-columns: 3fr 2fr 1fr;
+    margin-bottom: 10px;
+    column-gap: 5px;
+    height: 30px;
+}
+
+.divL3 input{
+    color: rgb(16, 172, 16);
+}
+
+.divBTN{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 5px;
+}
+
+.divBTN input[value="Edit"]{
+    background-image: none;
+    background-color: green;
+    color: rgb(199, 195, 195);
+}
+
+.divBTN input[value="Remove"]{
+    background-image: none;
+    background-color: red;
+    color: rgb(199, 195, 195);
+}
+
+.divCHECK{
+    padding-top: 5px;
+}
+
+.edit{
+    border: 2px solid white;
+}
